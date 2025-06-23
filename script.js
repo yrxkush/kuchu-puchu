@@ -569,7 +569,7 @@ window.onload = function() {
 // --- Timer ---
 function startGroundTimer() {
   const timerDiv = document.getElementById('groundTimer');
-  const startDate = new Date(Date.UTC(2025, 0, 26, 4, 51, 0));
+  const startDate = new Date(Date.UTC(2025, 0, 00, 4, 51, 0));
   function updateTimer() {
     const now = new Date();
     let diff = Math.floor((now.getTime() - startDate.getTime()) / 1000);
